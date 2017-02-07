@@ -37,3 +37,7 @@ to replace this:
     else
         PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
     fi
+
+##### Monitor CPU Speed of All Cores
+
+    watch -n.5 "cat /proc/cpuinfo | grep \"^[c]pu MHz\""
