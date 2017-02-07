@@ -44,8 +44,8 @@ to replace this:
     
 ##### Delete all Docker containers
 
-    docker rm $(docker ps -a -q)
+    docker rm $(docker ps -a -q) -f
 
 ##### Delete all Docker images
     
-    docker rmi $(docker images -q)
+    docker rmi $(docker images -q) -f
