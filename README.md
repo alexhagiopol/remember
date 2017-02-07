@@ -41,3 +41,11 @@ to replace this:
 ##### Monitor CPU Speed of All Cores
 
     watch -n.5 "cat /proc/cpuinfo | grep \"^[c]pu MHz\""
+    
+##### Delete all Docker containers
+
+    docker rm $(docker ps -a -q)
+
+##### Delete all Docker images
+    
+    docker rmi $(docker images -q)
