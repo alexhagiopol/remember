@@ -56,3 +56,8 @@ to replace this:
     sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
     sudo apt-get install -f
     google-chrome
+
+##### Generate SSH Key
+    
+    ssh-keygen -t rsa -b 4096 -C "alexhagiopol@gmail.com"
+    
