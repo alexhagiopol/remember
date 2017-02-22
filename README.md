@@ -61,3 +61,9 @@ to replace this:
     
     ssh-keygen -t rsa -b 4096 -C "alexhagiopol@gmail.com"
     
+##### Install SimpleScreenRecorder
+
+    sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+    sudo apt-get update
+    sudo apt-get install simplescreenrecorder
+    
