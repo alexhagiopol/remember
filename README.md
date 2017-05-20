@@ -48,7 +48,7 @@ to replace this:
 
 ##### Delete all Docker images
     
-    docker rmi $(docker images -q) -f
+    docker rmi $(sudo docker images -aq)
 
 ##### Install Google Chrome
 
