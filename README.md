@@ -1,6 +1,10 @@
 # remember
 Collection of useful commands I always forget.
 
+##### Parallelize a command in a nested bash for loop
+
+    for dir in ~/example/*; do for image in $dir/*.png; echo $image & done; done
+
 ##### Resize all images in a folder with Image Magick
   
     for i in *.jpg; do convert $i -resize 500x $i; done
